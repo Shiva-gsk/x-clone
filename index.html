@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X Clone</title>
+    <link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./css/input.css" />
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="text-white bg-black">
+    <div class="container relative flex mx-auto w-[65%]">
+        <div class="left relative w-[22%]">
+
+            <div class="wrap sticky top-0">
+                <ul class="flex flex-col items-start text-[17px] cursor-pointer h-5/6 m-1">
+
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="m-2 mx-4 invert w-7 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                        <g>
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                            </path>
+                        </g>
+                    </svg>
+                    <div class="flex  justify-items-start p-3 gap-2 cursor-pointer rounded-full hover:bg-[#16181C]">
+                        <span class="material-symbols-outlined"> home </span>
+
+                        <li class="">Home</li>
+                    </div>
+                    <div class="flex justify-items-start p-3 gap-3 cursor-pointer rounded-full hover:bg-[#16181C]">
+                        <span class="material-symbols-outlined"> explore </span>
+                        <li class="font-bold">Explore</li>
+                    </div>
+
+                    <div class="flex justify-items-start p-3 gap-3 cursor-pointer rounded-full hover:bg-[#16181C]">
+                        <span class="material-symbols-outlined">
+                            notifications_active
+                        </span>
+
+                        <li>Notifications</li>
+                    </div>
+                    <div class="flex justify-items-start p-3 gap-3 cursor-pointer rounded-full hover:bg-[#16181C]">
+                        <span class="material-symbols-outlined"> mail </span>
+                        <li>Messages</li>
+                    </div>
+                    <div class="flex justify-items-start p-3 gap-3 cursor-pointer rounded-full hover:bg-[#16181C]">
+                        <span class="material-symbols-outlined"> edit_square </span>
+                        <li>Grok</li>
+                    </div>
+                    <div class="flex justify-items-start p-3 gap-3 cursor-pointer rounded-full hover:bg-[#16181C]">
+                        <span class="material-symbols-outlined"> list_alt </span>
+                        <li>Lists</li>
+                    </div>
+                    <div class="flex justify-items-start p-3 gap-3 cursor-pointer rounded-full hover:bg-[#16181C]">
+                        <span class="material-symbols-outlined"> bookmark </span>
+                        <li>Bookmarks</li>
+                    </div>
+                    <div class="flex justify-items-start p-3 gap-3 cursor-pointer rounded-full hover:bg-[#16181C]">
+                        <span class="material-symbols-outlined"> group </span>
+                        <li>Communities</li>
+                    </div>
+                    <div
+                        class="flex justify-items-start p-3 gap-3 hover:cursor-pointer rounded-full hover:bg-[#16181C]">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"
+                            class="w-6 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                            <g>
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                </path>
+                            </g>
+                        </svg>
+                        <li>Premium</li>
+                    </div>
+                    <div
+                        class="flex justify-items-start p-3 gap-3 font-bold cursor-pointer rounded-full hover:bg-[#16181C]">
+                        <span class="material-symbols-outlined"> person </span>
+                        <li>Profile</li>
+                    </div>
+                    <div
+                        class="flex justify-items-start p-3 gap-3 font-bold cursor-pointer rounded-full hover:bg-[#16181C]">
+                        <span class="material-symbols-outlined"> more_horiz </span>
+                        <li>More</li>
+                    </div>
+                    <button class="bg-[#1D9BF0] rounded-full my-4 w-[90%] py-2">Post</button>
+                </ul>
+            </div>
+        </div>
+        <div class="w-1/2 middle border-x-2 border-zinc-800">
+            <div class="flex flex-row justify-between">
+                <div
+                    class="w-[50%] flex justify-center border-b-2 border-zinc-800 p-2 hover:bg-zinc-800 text-zinc-400 text-sm cursor-pointer">
+                    For You
+                </div>
+                <div
+                    class="w-[50%] flex justify-center border-b-2 border-zinc-800 p-2 hover:bg-zinc-800 text-zinc-400 text-sm cursor-pointer">
+                    Following
+                </div>
+                <span class="m-2 material-symbols-outlined cursor-pointer"> settings </span>
+            </div>
+            <div class="">
+                <div class="css-175oi2r r-172uzmj r-1pi2tsx r-13qz1uu r-o7ynqc r-6416eg r-1ny4l3l"></div>
+
+                <div class="text-[#52565B] flex p-3  pb-0">
+                    <img class="w-8 h-8 m-1 rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1661790669243908120/awEmN1Fl_x96.jpg" alt="">
+                    <input type="text" class="bg-black outline-none rounded-full p-2 pr-12   text-[17px]  w-[50%] "
+                        placeholder="What's happening?!" />
+                </div>
+                <div class="flex justify-between">
+
+                    <div class="Gif-items text-[#1D9BF0] m-4 mx-14 ">
+
+                        <span class="material-symbols-outlined text-[110%] px-1 cursor-pointer">
+                            image
+                        </span>
+                        <span class="material-symbols-outlined text-[110%] cursor-pointer">
+                            gif_box
+                        </span>
+                        <span class="material-symbols-outlined text-[110%] px-1 cursor-pointer">
+                            format_list_bulleted
+                        </span>
+                        <span class="material-symbols-outlined text-[110%] cursor-pointer">
+                            mood
+                        </span>
+                        <span class="material-symbols-outlined text-[110%] px-1 cursor-pointer">
+                            pending_actions
+                        </span>
+                        <span class="material-symbols-outlined text-[110%] cursor-pointer">
+                            location_on
+                        </span>
+
+                    </div>
+                    <div class="inline-flex items-end justify-end mx-4 ">
+
+
+                        <button class="bg-[#1D9BF0] rounded-full my-4 py-[2px] px-4">Post</button>
+                    </div>
+                </div>
+                <div class="border-y-2  border-zinc-800 text-[13px] text-center p-2 cursor-pointer text-[#1D9BF0]">
+                    Show 315 replies
+                </div>
+                <div class="m-2 posts">
+
+                    <div class="flex title">
+                        <img class="w-8 h-8 m-1 rounded-full"
+                            src="https://pbs.twimg.com/profile_images/1207636309508014081/hfA24vWM_normal.jpg" alt="">
+                        <span class="p-1 text-[12px] font-bold">Out of Context Human Race</span>
+
+                        <p class="text-[#52565B] text-[12px] p-1 pr-0">@user_name </p>
+                        <p class="time text-[#52565B] text-[12px] p-1 pl-0">18 h</p>
+
+                    </div>
+                    <div class="flex flex-col items-end justify-end content">
+                        <img src="https://pbs.twimg.com/media/GFlwebMXAAA99l-?format=jpg&name=medium " class="w-[90%] rounded-xl mx-2 mt-0 justify-end items-end
+                        " alt="">
+                    </div>
+                    <div class="flex justify-between mx-10">
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            chat
+                        </span>
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            repeat
+                        </span>
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            favorite
+                        </span>
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            insert_chart
+                        </span>
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            bookmark
+                        </span>
+
+                    </div>
+                    <div class="flex title">
+                        <img class="w-8 h-8 m-1 rounded-full"
+                            src="https://pbs.twimg.com/profile_images/1207636309508014081/hfA24vWM_normal.jpg" alt="">
+                        <span class="p-1 text-[12px] font-bold">Out of Context Human Race</span>
+
+                        <p class="text-[#52565B] text-[12px] p-1 pr-0">@user_name </p>
+                        <p class="time text-[#52565B] text-[12px] p-1 pl-0">18 h</p>
+
+                    </div>
+                    <div class="flex flex-col items-end justify-end content">
+                        <img src="https://pbs.twimg.com/media/GFlwebMXAAA99l-?format=jpg&name=medium " class="w-[90%] rounded-xl mx-2 mt-0 justify-end items-end
+                        " alt="">
+                    </div>
+                    <div class="flex justify-between mx-10">
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            chat
+                        </span>
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            repeat
+                        </span>
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            favorite
+                        </span>
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            insert_chart
+                        </span>
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            bookmark
+                        </span>
+
+                    </div>
+                    <div class="flex title">
+                        <img class="w-8 h-8 m-1 rounded-full"
+                            src="https://pbs.twimg.com/profile_images/1207636309508014081/hfA24vWM_normal.jpg" alt="">
+                        <span class="p-1 text-[12px] font-bold">Out of Context Human Race</span>
+
+                        <p class="text-[#52565B] text-[12px] p-1 pr-0">@user_name </p>
+                        <p class="time text-[#52565B] text-[12px] p-1 pl-0">18 h</p>
+
+                    </div>
+                    <div class="flex flex-col items-end justify-end content">
+                        <img src="https://pbs.twimg.com/media/GFlwebMXAAA99l-?format=jpg&name=medium " class="w-[90%] rounded-xl mx-2 mt-0 justify-end items-end
+                        " alt="">
+                    </div>
+                    <div class="flex justify-between mx-10">
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            chat
+                        </span>
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            repeat
+                        </span>
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            favorite
+                        </span>
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            insert_chart
+                        </span>
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            bookmark
+                        </span>
+
+                    </div>
+
+                    <div class="flex title">
+                        <img class="w-8 h-8 m-1 rounded-full"
+                            src="https://pbs.twimg.com/profile_images/1207636309508014081/hfA24vWM_normal.jpg" alt="">
+                        <span class="p-1 text-[12px] font-bold">Out of Context Human Race</span>
+
+                        <p class="text-[#52565B] text-[12px] p-1 pr-0">@user_name </p>
+                        <p class="time text-[#52565B] text-[12px] p-1 pl-0">18 h</p>
+
+                    </div>
+                    <div class="flex flex-col items-end justify-end content">
+                        <img src="https://pbs.twimg.com/media/GFlwebMXAAA99l-?format=jpg&name=medium " class="w-[90%] rounded-xl mx-2 mt-0 justify-end items-end
+                        " alt="">
+                    </div>
+                    <div class="flex justify-between mx-10">
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            chat
+                        </span>
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            repeat
+                        </span>
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            favorite
+                        </span>
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            insert_chart
+                        </span>
+                        <span
+                            class="material-symbols-outlined hover:text-blue-500 text-[#52565B] cursor-pointer text-lg">
+                            bookmark
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right w-[30%]">
+            <div class="sticky top-0">
+
+                <div>
+                    <input type="text" class="rounded-full bg-zinc-800 p-2 px-10 m-3  text-[13px] mt-[6px] w-full "
+                        placeholder="Search" />
+                </div>
+                <div class="bg-[#16181c] py-2 m-3 pb-0 px-4 pr-5 text-xs rounded-xl w-full">
+                    <h3 class="text-lg font-bold">Subscribe to Premium</h3>
+                    Subscribe to unlock new features and if eligible,
+                    receive a share of ads revenue.
+                    <div>
+
+                        <button class="bg-[#1D9BF0] rounded-full my-3 w-[40%] py-2">Subscribe</button>
+                    </div>
+                </div>
+                <div class="bg-[#16181c] py-2 m-3 pb-0  text-xs rounded-xl w-full gap">
+                    <div class="">
+                        <h3 class="px-4 text-lg font-bold">What's happening</h3>
+
+                    </div>
+                    <div class="p-3 text-xs cursor-pointer gap-y-1 hover:bg-zinc-800">
+
+                        <head class="font-bold "></head>#Oneplus12R</head>
+                        <p class="text-[#52565B]">
+                            Available from 1pm tomorrow
+                        </p>
+                        <div class="flex ">
+                            <span class="material-symbols-outlined text-[13px] text-[#52565B] mt-1 inline-block">
+                                open_in_new
+                            </span>
+                            <span class="text-[10px] text-[#52565B] mt-[3px] ">Promoted by Oneplus</span>
+
+                        </div>
+                    </div>
+                    <div class="p-3 text-xs cursor-pointer gap-y-2 hover:bg-zinc-800">
+
+                        <head class="font-bold "></head>#Oneplus12R</head>
+                        <p class="text-[#52565B]">
+                            Available from 1pm tomorrow
+                        </p>
+                        <div class="flex ">
+                            <span class="material-symbols-outlined text-[13px] text-[#52565B] mt-1 inline-block">
+                                open_in_new
+                            </span>
+                            <span class="text-[10px] text-[#52565B] mt-[3px] ">Promoted by Oneplus</span>
+
+                        </div>
+                    </div>
+                    <div class="p-3 text-xs cursor-pointer gap-y-2 hover:bg-zinc-800">
+
+                        <head class="font-bold "></head>#Oneplus12R</head>
+                        <p class="text-[#52565B]">
+                            Available from 1pm tomorrow
+                        </p>
+                        <div class="flex ">
+                            <span class="material-symbols-outlined text-[13px] text-[#52565B] mt-1 inline-block">
+                                open_in_new
+                            </span>
+                            <span class="text-[10px] text-[#52565B] mt-[3px] ">Promoted by Oneplus</span>
+
+                        </div>
+                    </div>
+                    <div class="p-3 text-xs cursor-pointer gap-y-2 hover:bg-zinc-800">
+
+                        <head class="font-bold "></head>#Oneplus12R</head>
+                        <p class="text-[#52565B]">
+                            Available from 1pm tomorrow
+                        </p>
+                        <div class="flex ">
+                            <span class="material-symbols-outlined text-[13px] text-[#52565B] mt-1 inline-block">
+                                open_in_new
+                            </span>
+                            <span class="text-[10px] text-[#52565B] mt-[3px] ">Promoted by Oneplus</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
